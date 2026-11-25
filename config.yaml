@@ -1,7 +1,7 @@
 data:
-  date_start: "2024-01-01"
+  date_start: "2014-01-01"
   date_finish: null
-  timeframe: 24
+  candle_intervals: 24
   tickers:
     - SBER   # Сбербанк
     - GAZP   # Газпром
@@ -19,8 +19,8 @@ data:
     - MGNT   # Магнит
     - ALRS   # АЛРОСА
     - MOEX   # Московская биржа
-    - VRBR   # ВТБ
+    - VTBR   # ВТБ
 risk:
-  confidence_levels = [0.95, 0.99]
+  confidence_levels: [0.95, 0.99]
   horizons: [1, 5, 21]
   rolling_window: 252
